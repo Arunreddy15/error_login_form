@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 552px) {
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .website-login {
+    order: 2;
+    height: 160px;
+    width: 320px;
+    margin-bottom: 30px;
+  }
+  .website-logo {
+    order: 1;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+  .form-container {
+    order: 3;
+  }
+}
+.form-container {
+  box-sizing: border-box;
+}
+.input-field {
+  width: 90px;
+  min-width: 300px;
+  height: 40px;
+  border: 0px;
+  background-color: #d7dfe9;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.password-label,
+.username-label {
+  color: #475569;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-login {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  width: 90px;
+  min-width: 300px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+}
+@media screen and (min-width: 552px) {
+  .login-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .website-login {
+    height: 350px;
+    width: 60%;
+    max-width: 600px;
+    height: 300px;
+  }
+  .website-logo {
+    height: 60px;
+    order: 2;
+  }
+  .form-container {
+    order: 2;
+  }
+}
+.errorMsg {
+  color: red;
+}
